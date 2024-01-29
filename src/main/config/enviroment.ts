@@ -11,10 +11,6 @@ dotenv.config({
   )
 })
 
-export const env = {
-  redisHost: process.env.REDIS_HOST,
-  redisPort: +process.env.REDIS_PORT,
-  bullPrefix: process.env.BULL_PREFIX,
-  bullQueue: process.env.BULL_QUEUE,
-  bullQueueJobFile: process.env.BULL_QUEUE_JOB_FILE,
+export const env =  {
+  sqlUrl: process.env.SQS_URL,
 }
