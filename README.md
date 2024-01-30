@@ -1,1 +1,1 @@
-# test_sqs
+# POC usando SQS
